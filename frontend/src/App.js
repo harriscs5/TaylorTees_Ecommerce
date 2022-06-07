@@ -33,7 +33,7 @@ function App() {
                 <ul class="products">
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
@@ -45,7 +45,7 @@ function App() {
 
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
@@ -57,7 +57,7 @@ function App() {
 
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
@@ -69,7 +69,7 @@ function App() {
 
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
@@ -81,7 +81,7 @@ function App() {
 
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
@@ -93,7 +93,7 @@ function App() {
 
                     <li>
                         <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png">
+                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
                             <div class="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
