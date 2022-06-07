@@ -4,102 +4,102 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div class="grid-container">
-        <header class="header">
-            <div class="brand">
+      <div className="grid-container">
+        <header className="header">
+            <div className="brand">
                 <button onclick="openMenu()">
                     &#9776;
                 </button>
                 <a href="index.html">Taylor's Tees</a>
             </div>
 
-            <div class="header-links">
+            <div className="header-links">
                 <a href="cart.html">Cart</a>
                 <a href="login.html">Login</a>
             </div>
         </header>
 
-        <aside class="sidebar">
+        <aside className="sidebar">
             <h3>Categories</h3>
-            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <button className="sidebar-close-button" onclick="closeMenu()">x</button>
             <ul>
                 <li><a href="index.html">T-shirts</a></li>
                 <li><a href="index.html">Hoodies</a></li>
             </ul>
         </aside>
 
-        <main class="main">
-            <div class="content">
-                <ul class="products">
+        <main className="main">
+            <div className="content">
+                <ul className="products">
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
 
                     <li>
-                        <div class="product">
-                            <img class="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
-                            <div class="product-name">
+                        <div className="product">
+                            <img className="product-image" src="https://i.postimg.cc/7LJ9LCbQ/mockup-of-a-big-bearded-man-wearing-a-bella-canvas-t-shirt-m13931.png"/>
+                            <div className="product-name">
                                 <a href="product.html">Boondocks Tee</a>
                             </div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$600</div>
-                            <div class="product-rating">5 stars (10 reviews)</div>
+                            <div className="product-brand">Nike</div>
+                            <div className="product-price">$600</div>
+                            <div className="product-rating">5 stars (10 reviews)</div>
                         </div>
                     </li>
                 </ul>
@@ -108,7 +108,7 @@ function App() {
 
         
 
-        <footer class="footer">All rights reserved</footer>
+        <footer className="footer">All rights reserved</footer>
 
     </div>
     </div>
