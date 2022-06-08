@@ -1,0 +1,41 @@
+const data = {
+    products: [
+        {
+            name: 'Boondocks Tee',
+            slug: 'boondocks-tee',
+            category: 't-shirt',
+            image: '/images/boondocks.png',
+            price: 30,
+            countInStock: 6,
+            brand: 'nike',
+            rating: 4.0,
+            numReviews: 10,
+            description: 'high quality fabric',
+        },
+        {
+            name: 'Barbie Tee',
+            slug: 'barbie-tee',
+            category: 't-shirt',
+            image: '/images/boondocks.png',
+            price: 40,
+            countInStock: 6,
+            brand: 'nike',
+            rating: 4.5,
+            numReviews: 10,
+            description: 'high quality fabric',
+        },
+        {
+            name: 'will smith Tee',
+            slug: 'will-smith-tee',
+            category: 't-shirt',
+            image: '/images/boondocks.png',
+            price: 120,
+            countInStock: 6,
+            brand: 'nike',
+            rating: 4.9,
+            numReviews: 10,
+            description: 'high quality fabric',
+        },
+    ],
+};
+export default data;
