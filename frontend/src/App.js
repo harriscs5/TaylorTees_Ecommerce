@@ -1,5 +1,9 @@
-import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 import data from "./data";
+import { BrowserRouter } from "react-router-dom";
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom"
+import HomeScreen from './screens/HomeScreen';
+
 
 
 function App() {
@@ -12,6 +16,9 @@ function App() {
         </header>
 
         <main>
+        <Routes>
+          <Route path="/" element={ <HomeScreen />} />
+        </Routes>
             <h1>Featured Products</h1>
             <div className="products">{
               data.products.map(product => (
