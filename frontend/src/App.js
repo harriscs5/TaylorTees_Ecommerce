@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 import data from "./data";
 
 
@@ -5,6 +6,7 @@ function App() {
   
   return (
     <div>
+    <BrowserRouter>
         <header>  
             <a href="index.html">Taylor's Tees</a>
         </header>
@@ -29,6 +31,7 @@ function App() {
             ))}
             </div>
         </main>
+      </BrowserRouter>
     </div>
     
   );
