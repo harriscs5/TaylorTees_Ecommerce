@@ -17,6 +17,7 @@ function App() {
 
         <main>
         <Routes>
+          <Route path="/product/:slug" element={ <ProductScreen />} />
           <Route path="/" element={ <HomeScreen />} />
         </Routes>
         </main>
