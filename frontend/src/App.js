@@ -12,8 +12,15 @@ function App() {
   return (
     <div>
     <BrowserRouter>
-        <header>  
-            <Link to="/">Taylor's Tees</Link>
+        <header>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <LinkContainer to="/">
+              <Navbar.Brand>Taylor's Tees</Navbar.Brand>
+            </LinkContainer>
+          </Container>
+        </Navbar>  
+          
         </header>
 
         <main>
