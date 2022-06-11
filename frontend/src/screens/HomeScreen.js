@@ -2,6 +2,8 @@ import { useEffect, useReducer, useState} from 'react';
 import { Link } from "react-router-dom";
 //import data from "../data";
 import axios from 'axios';
+import logger from 'use-reduce-logger';
+
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -17,7 +19,7 @@ const reducer = (state, action) => {
 };
 
 function HomeScreen() {
-  const [{loading, error, products}, dispatch] = useReducer(reducer, {
+  const [{loading, error, products}, dispatch] = useReducer(logger(reducer), {
     products: [],
     loading: true,
     error: '',
@@ -47,7 +49,7 @@ function HomeScreen() {
             ) : (
               <Row>
               {products.map((product) => (
-              <Col>
+              <Col sm={6} md={4} lg={3} className="mb-3">
                 <div className="product" key={product.slug}>
                 <Link to={`/product/${product.slug}`}>
                   <img src={product.image} alt={product.name}/>
