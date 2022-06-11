@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 //import data from "../data";
 import axios from 'axios';
 import logger from 'use-reduce-logger';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 const reducer = (state, action) => {
