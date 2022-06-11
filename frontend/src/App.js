@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
     <BrowserRouter>
-        <header>
+        
         <Navbar bg="dark" variant="dark">
           <Container>
             <LinkContainer to="/">
@@ -23,8 +23,6 @@ function App() {
             </LinkContainer>
           </Container>
         </Navbar>  
-          
-        </header>
 
         <main>
         <Routes>
