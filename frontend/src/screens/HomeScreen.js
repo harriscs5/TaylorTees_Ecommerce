@@ -14,12 +14,16 @@ const reducer = (state, action) => {
     default:
       return state; //if none of the 3 cases returns current state
   }
-}
+};
 
 function HomeScreen() {
+  const [{loading, error, products}, dispatch] = useReducer(reducer, {
+    loading: true, error: '',
+  });
   //const [products, setProducts] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
+      dispatch({type: 'FETCH_REQUEST'});
       const result = await axios.get('/api/products');
       setProducts(result.data);
     };
