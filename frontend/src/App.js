@@ -34,7 +34,7 @@ function App() {
         </main>
 
         <footer>
-          <p>All rights reserved</p>
+          <div className="text-center">All rights reserved</div>
         </footer>
       </BrowserRouter>
     </div>
