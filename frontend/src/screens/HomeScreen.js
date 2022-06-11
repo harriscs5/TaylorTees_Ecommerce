@@ -45,7 +45,9 @@ function HomeScreen() {
             ) : error ? (
               <div>{error}</div>
             ) : (
-              products.map((product) => (
+              <Row>
+              {products.map((product) => (
+              <Col>
                 <div className="product" key={product.slug}>
                 <Link to={`/product/${product.slug}`}>
                   <img src={product.image} alt={product.name}/>
@@ -58,8 +60,11 @@ function HomeScreen() {
                     <button>Add to Cart</button>
                   </div>
 
-              </div>
+                </div>
+              </Col>
             ))
+              }
+            </Row>
           )}
         </div>
     </div>
