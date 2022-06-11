@@ -13,9 +13,8 @@ import {LinkContainer} from 'react-router-bootstrap';
 function App() {
   
   return (
-    <div>
     <BrowserRouter>
-        
+    <div className="d-flex flex-column site-container">
         <Navbar bg="dark" variant="dark">
           <Container>
             <LinkContainer to="/">
@@ -36,8 +35,8 @@ function App() {
         <footer>
           <div className="text-center">All rights reserved</div>
         </footer>
-      </BrowserRouter>
     </div>
+    </BrowserRouter>
     
   );
 }
