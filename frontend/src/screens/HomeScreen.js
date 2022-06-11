@@ -17,7 +17,7 @@ const reducer = (state, action) => {
 }
 
 function HomeScreen() {
-  const [products, setProducts] = useState([]);
+  //const [products, setProducts] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios.get('/api/products');
