@@ -7,6 +7,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Badge from 'react-bootstrap/Badge';
 import Rating from "../components/Rating";
 import Card from 'react-bootstrap/Card';
+import Button from "react-bootstrap/Button";
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -90,6 +91,15 @@ function ProductScreen(){
                                            }</Col>
                                        </Row>
                                    </ListGroup.Item>
+
+                                   {product.countInStock > 0 && (
+                                       <ListGroup.Item>
+                                           <div className="d-grid">
+                                               <Button variant="primary" style={{ backgroundColor: "#f0c040", color: "#000000" }}>Add to cart</Button>
+                                           </div>
+                                       </ListGroup.Item>
+                                   )}
+
                                </ListGroup>
                            </Card.Body>
                        </Card>

@@ -18,7 +18,7 @@ function Product(props) {
                     </Link>
                     <Rating rating={product.rating} numReviews={product.numReviews} />
                    <Card.Text>${product.price}</Card.Text>
-                   <Button style={{ backgroundColor: "#f0c040", color: "#000000" }}>Add to Cart</Button>
+                   <Button variant='primary' style={{ backgroundColor: "#f0c040", color: "#000000" }}>Add to Cart</Button>
                 </Card.Body>
          </Card>
     );
