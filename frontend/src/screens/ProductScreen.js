@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useReducer, useState} from 'react';
 import axios from "axios";
+import Row from "react-bootstrap/esm/Row";
 
 const reducer = (state, action) => {
     switch (action.type) {
       case 'FETCH_REQUEST':
         return {...state, loading: true}; //shows loading box
       case 'FETCH_SUCCESS':
-        return {...state, products: action.payload, loading: false};
+        return {...state, product: action.payload, loading: false};
       case 'FETCH_FAIL':
         return {...state, loading: false, error: action.payload};
       default:
@@ -20,11 +21,11 @@ function ProductScreen(){
     const {slug} = params;
 
     const [{loading, error, product}, dispatch] = useReducer((reducer), {
-        products: [],
+        product: [],
         loading: true,
         error: '',
       });
-      //const [products, setProducts] = useState([]);
+     
       useEffect(() => {
         const fetchData = async () => {
           dispatch({type:'FETCH_REQUEST'});
@@ -34,15 +35,30 @@ function ProductScreen(){
           } catch (err) {
             dispatch({type:'FETCH_FAIL', payload: err.message});
           }
-         
-          //setProducts(result.data);
+        
         };
         fetchData();
     }, [slug]);
 
-    return (
-        <h1>{slug}</h1>
-    );
+    return loading ? (
+       <div>Loading...</div>
+       ) : error ? (
+       <div>{error}</div>
+       ) : (
+           <div>
+               <Row>
+                   <Col md={6}>
+                       <img
+                            className="img-large"
+                            src={product. any }
+                            alt={product.name}
+                        ></img>
+                   </Col>
+                   <Col md={3}></Col>
+                   <Col md={3}></Col>
+               </Row>
+           </div>
+       );
 }
 
 export default ProductScreen;
