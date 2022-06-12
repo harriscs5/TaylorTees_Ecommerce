@@ -14,10 +14,7 @@ main{
   flex: 1;
 }
 
-.button {
-  color: #f0c040;
-  background-color: #000;
-}
+
 
 .products {
   display: flex;
