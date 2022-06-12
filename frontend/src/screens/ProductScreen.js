@@ -49,11 +49,7 @@ function ProductScreen(){
            <div>
                <Row>
                    <Col md={6}>
-                       <img
-                            className="img-large"
-                            src={product. any }
-                            alt={product.name}
-                        ></img>
+                       <img className="img-large" src={product.image} alt={product.name} />
                    </Col>
                    <Col md={3}></Col>
                    <Col md={3}></Col>
