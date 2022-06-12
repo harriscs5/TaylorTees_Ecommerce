@@ -13,8 +13,10 @@ body {
 main{
   flex: 1;
 }
-.btn-primary {
-  background-color: #f0c040;
+
+.button {
+  color: #f0c040;
+  background-color: #000;
 }
 
 .products {

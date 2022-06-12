@@ -1,7 +1,8 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import Button  from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 import Rating from './Rating';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function Product(props) {
@@ -15,9 +16,9 @@ function Product(props) {
                     <Link to={`/product/${product.slug}`}>
                         <Card.Title>{product.name}</Card.Title>
                     </Link>
+                    <Rating rating={product.rating} numReviews={product.numReviews} />
                    <Card.Text>${product.price}</Card.Text>
-                   <Button>Add to Cart</Button>
-                   <Rating rating={product.rating} numReviews={product.numReviews} />
+                   <Button style={{ backgroundColor: "#f0c040", color: "#000000" }}>Add to Cart</Button>
                 </Card.Body>
          </Card>
     );
