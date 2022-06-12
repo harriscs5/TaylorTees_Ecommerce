@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useReducer, useState} from 'react';
 import axios from "axios";
-import Row from "react-bootstrap/esm/Row";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const reducer = (state, action) => {
     switch (action.type) {
