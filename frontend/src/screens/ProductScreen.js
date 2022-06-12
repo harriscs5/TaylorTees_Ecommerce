@@ -3,6 +3,7 @@ import { useEffect, useReducer, useState} from 'react';
 import axios from "axios";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Rating from "../components/Rating";
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -51,7 +52,21 @@ function ProductScreen(){
                    <Col md={6}>
                        <img className="img-large" src={product.image} alt={product.name} />
                    </Col>
-                   <Col md={3}></Col>
+                   <Col md={3}>
+                       <ListGroup variant="flush">
+                           <ListGroup.Item>
+                               <h1>{product.name}</h1>
+                           </ListGroup.Item>
+                           <ListGroup.Item>
+                               <Rating rating={product.rating} numReviews={product.numReviews}></Rating>
+                           </ListGroup.Item>
+                           <ListGroup.Item>Price: ${product.price}</ListGroup.Item>
+                           <ListGroup.Item>
+                           Description:
+                            <p>{product.description}</p>
+                           </ListGroup.Item>
+                       </ListGroup>
+                   </Col>
                    <Col md={3}></Col>
                </Row>
            </div>
