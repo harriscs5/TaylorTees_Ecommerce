@@ -6,7 +6,7 @@ function Rating(props) {
                 <i className={
                     rating >= 1
                     ? 'fas fa-star'
-                    : rating>=0.5 
+                    : rating >= 0.5 
                     ? 'fa-star-half-alt'
                     : 'far fa-star'
                 } 
@@ -16,7 +16,7 @@ function Rating(props) {
                 <i className={
                     rating >= 2
                     ? 'fas fa-star'
-                    : rating>=1.5 
+                    : rating >= 1.5 
                     ? 'fa-star-half-alt'
                     : 'far fa-star'
                 } 
@@ -36,7 +36,7 @@ function Rating(props) {
                 <i className={
                     rating >= 4
                     ? 'fas fa-star'
-                    : rating>=3.5 
+                    : rating >= 3.5 
                     ? 'fa-star-half-alt'
                     : 'far fa-star'
                 } 
@@ -53,5 +53,6 @@ function Rating(props) {
             />
             </span>
         </div>
-    )
+    );
 }
+export default Rating;
