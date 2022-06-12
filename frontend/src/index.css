@@ -43,4 +43,5 @@ main{
 
 .img-large {
   max-width: 100%;
+  padding: 30px;
 }
