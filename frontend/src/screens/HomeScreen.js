@@ -1,11 +1,10 @@
 import { useEffect, useReducer, useState} from 'react';
-import { Link } from "react-router-dom";
 //import data from "../data";
 import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Product from '../components/product';
+import Product from '../components/Product';
 
 
 const reducer = (state, action) => {
@@ -52,7 +51,7 @@ function HomeScreen() {
             ) : (
               <Row>
               {products.map((product) => (
-              <Col sm={6} md={4} lg={3} className="mb-3">
+              <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
                   <Product product={product}></Product>
               </Col>
             ))
